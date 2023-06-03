@@ -1,0 +1,26 @@
+[
+   {
+      "repository" : "crdroidandroid/android_kernel_realme_mt6785",
+      "target_path": "kernel/realme/mt6785"
+   },
+   {
+      "branch"     : "lineage-20",
+      "repository" : "realme-mt6785-devs/proprietary_vendor_realme",
+      "target_path": "vendor/realme"
+   },
+   { 
+      "branch"     : "master",
+      "repository" : "realme-mt6785-devs/proprietary_vendor_realme-firmware",
+      "target_path": "realme/realme-firmware"
+   },
+   {
+      "repository" : "realme-mt6785-devs/android_device_mediatek_sepolicy_vndr",
+      "target_path": "device/mediatek/sepolicy_vndr",
+      "branch"     : "lineage-20"
+   },
+   {
+      "repository" : "realme-mt6785-devs/android_hardware_mediatek",
+      "target_path": "hardware/mediatek",
+      "branch"     : "lineage-20"
+   }
+]
