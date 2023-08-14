@@ -56,7 +56,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor:64
 
 PRODUCT_PACKAGES += \
-    libshim_camera_metadata
+    libshim_audio \
+    libshim_camera_metadata \
+    libshim_mtkcam \
+    libshim_utils
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -180,7 +183,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksOverlayRMX2151 \
     FrameworksOverlayRMX2161 \
-    SettingsOverlayRM6785
+    SettingsOverlayRM6785 \
+    SettingsProviderOverlay6 \
+    SettingsProviderOverlay6i \
+    SettingsProviderOverlay6s \
+    SettingsProviderOverlay7 \
+    SettingsProviderOverlayNarzo \
+    SettingsProviderOverlayNarzo20Pro \
+    SettingsProviderOverlayNarzo30
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS += *
@@ -325,9 +335,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libmedia_helper-v30 \
     libutils-v32 \
-    libutils-v30 \
     libui-v32
 
 # Wi-Fi
